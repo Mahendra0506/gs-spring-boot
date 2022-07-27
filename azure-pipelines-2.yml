@@ -1,6 +1,6 @@
 # Maven
 # Build your Java project and run tests with Apache Maven.
-- task: Maven@3
+ task: Maven@3
   inputs:
     mavenPomFile: 'app/pom.xml'
     publishJUnitResults: true
